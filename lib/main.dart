@@ -1,3 +1,4 @@
+import 'package:contacts_app/randomWidgets/nav.dart';
 import 'package:contacts_app/screens/contact.dart';
 import 'package:contacts_app/screens/groups.dart';
 import 'package:contacts_app/screens/recents.dart';
@@ -14,7 +15,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-    home: RecentsView(),
+    home: BottomNavBar(),
     );
   }
 }

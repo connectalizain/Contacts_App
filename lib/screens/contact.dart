@@ -169,7 +169,7 @@ class _ContactsState extends State<Contacts> {
         },
         child: const Icon(Icons.add),
       ),
-      bottomNavigationBar: const BottomNavBar(),
+      // bottomNavigationBar: const BottomNavBar(),
 
     );
      

@@ -12,7 +12,7 @@ class BottomNavBar extends StatefulWidget {
 }
 
 class _BottomNavBarState extends State<BottomNavBar> {
-   int currentIndex = 2;
+   int currentIndex = 0;
   final screens = [
     RecentsView(),
     Contacts(),

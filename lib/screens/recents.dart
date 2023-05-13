@@ -47,7 +47,7 @@ class _RecentsViewState extends State<RecentsView> {
         onPressed: () {},
         child: Icon(Icons.dialpad),
       ),
-            bottomNavigationBar: BottomNavBar(),
+            // bottomNavigationBar: BottomNavBar(),
 
     );
     
